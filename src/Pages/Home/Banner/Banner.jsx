@@ -1,4 +1,5 @@
 import React from "react";
+import PrimaryButton from "../../Sheare/PrimaryButton/PrimaryButton";
 
 const Banner = () => {
   return (
@@ -15,9 +16,7 @@ const Banner = () => {
               WE HAVE SOLVED THE MOST CHALLENGING MODERN HEALTHCARE PROBLEM;
               ACCESSIBILITY AND AFFORDABILITY
             </p>
-            <button className="btn btn-primary uppercase font-bold text-white bg-gradient-to-r from-secondary to-primary ">
-              Get Started
-            </button>
+           <PrimaryButton>Get Start</PrimaryButton>
           </div>
         </div>
       </div>

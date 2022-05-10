@@ -6,7 +6,7 @@ module.exports = {
   daisyui: {
    
     themes: [
-     
+     'cupcake',
       
       {
         doctortheme: {
