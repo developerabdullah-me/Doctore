@@ -12,7 +12,11 @@ const HomeContact = () => {
                     <input className="block mt-4 py-4 w-72 mx-auto px-3 " type="email" placeholder='Email Address'/>
                     <input className="block mt-4 py-4 w-72 mx-auto px-3 " type="text" placeholder='Subject'/>
                     <textarea className="block mt-4 py-4 w-72 mx-auto px-3 mb-8" placeholder='Your message'></textarea>
-                    <PrimaryButton>Submit</PrimaryButton>
+                   <div  className="mx-auto block">
+                   <button className="btn btn-primary uppercase font-bold block mx-auto text-white bg-gradient-to-r from-secondary to-primary ">
+             Get Started
+            </button>
+                   </div>
                 </from>
             </div>
         </div>
