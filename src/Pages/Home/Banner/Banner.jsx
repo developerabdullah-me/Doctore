@@ -10,9 +10,9 @@ const Banner = () => {
             src={`https://i.ibb.co/StRFvLy/chair.png`}
             className="max-w-sm rounded-lg shadow-2xl"
           />
-          <div>
-            <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
-            <p className="py-6 px-6">
+          <div className='text-left'> 
+            <h1 className="text-5xl font-bold text-left">Your New Smile Starts Here</h1>
+            <p className="py-6 px-6 text-left">
               WE HAVE SOLVED THE MOST CHALLENGING MODERN HEALTHCARE PROBLEM;
               ACCESSIBILITY AND AFFORDABILITY
             </p>
