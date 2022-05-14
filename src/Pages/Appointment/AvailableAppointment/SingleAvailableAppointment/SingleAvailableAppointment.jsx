@@ -17,7 +17,7 @@ const SingleAvailableAppointment = ({ service, setTreatment }) => {
       </p>
 
       <label
-        for="BookModal"
+        for="booking-modal"
         onClick={() => setTreatment(service)}
         disabled={slots.length === 0}
         className="bg-primary  px-7 py-3 rounded text-white font-bold btn"

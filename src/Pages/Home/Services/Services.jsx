@@ -7,7 +7,7 @@ const Services = () => {
 <h1 className='text-center text-4xl text-primary mt-5'>OUR SERVICES</h1>
 <p className='text-center '>Services We Provide</p>
         <div className='grid md:grid-cols-3 gap-6 px-11 sm:grid-cols-1 mt-9'>
-            <div className="  px-5 rounded-md py-3 shadow-2xl h-64" >
+            <div className="  px-5 rounded-md py-3 shadow-2xl h-80" >
               <div  className=" ">
               <img className="mx-auto" src={`https://i.ibb.co/41rNZ60/fluoride.png`} alt="" />
               <div className="">
@@ -17,7 +17,7 @@ const Services = () => {
               </div>
             </div>
             <div className=" px-5 rounded-md">
-            <div  className="  py-3 shadow-2xl h-64" >
+            <div  className="  py-3 shadow-2xl h-80 px-5" >
             <img className="mx-auto" src={`https://i.ibb.co/QrvwmJ9/cavity.png`} alt="" />
             <div>
                 <h1  className="pb-5 font-bold">Cavity Filling</h1>
@@ -28,7 +28,7 @@ const Services = () => {
             </div>
             </div>
             <div className="5 rounded-md  ">
-              <div className="  py-3 shadow-2xl h-64" >
+              <div className="  py-3 shadow-2xl h-80 px-5" >
               <img className="mx-auto" src={`https://i.ibb.co/YRpBY6D/whitening.png`} alt="" />
               <div className="">
                   <h1 className="pb-5 font-bold">Teeth Whitening</h1>
