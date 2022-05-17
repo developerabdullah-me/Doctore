@@ -4,17 +4,16 @@ import BookModal from "../BookModal";
 import SingleAvailableAppointment from "./SingleAvailableAppointment/SingleAvailableAppointment";
 
 const AvailableAppointment = ({ date }) => {
-    const [services,setServices]=useState([])
-    const [treatment,setTreatment]=useState(null)
-    useEffect(() =>{
-        fetch('http://localhost:5000/services')
-        .then(res=> res.json())
-        .then(data=>setServices(data))
-    },[])
+  const [services, setServices] = useState([]);
+    const [treatment, setTreatment] = useState(null);
 
-    useEffect(() =>{
-      console.log(treatment)
-    },[treatment])
+    const formattedDate = format(date, 'PP');
+    useEffect(() => {
+        fetch(`http://localhost:5000/available?date=${formattedDate}`)
+            .then(res => res.json())
+            .then(data => setServices(data));
+    }, [])
+
   return (
     <div className='my-10'>
             <h4 className='text-xl text-secondary text-center my-12'>Available Appointments on {format(date, 'PP')}</h4>
@@ -35,5 +34,4 @@ const AvailableAppointment = ({ date }) => {
         </div>
   );
 };
-
 export default AvailableAppointment;
